@@ -1,0 +1,33 @@
+/*RESETEO DE ESTILOS NATIVOS*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/*ESTILOS DE BODY*/
+body{
+    font-family: Arial;
+    background-color: lightgray;
+
+}
+ 
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 600px;
+    height: 400px;
+    background-color: white;
+    border: black solid 3px;
+}
+
+.flex-item{
+    width: 100px;
+    height: 100px;
+    background-color: lightcoral;
+    border: black solid 2px;
+}
